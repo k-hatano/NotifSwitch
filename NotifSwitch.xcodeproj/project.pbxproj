@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A442F6C1ACE5C3A00BBD25E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A442F6B1ACE5C3A00BBD25E /* Cocoa.framework */; };
+		4A442F761ACE5C3A00BBD25E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A442F741ACE5C3A00BBD25E /* InfoPlist.strings */; };
+		4A442F781ACE5C3A00BBD25E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A442F771ACE5C3A00BBD25E /* main.m */; };
+		4A442F7C1ACE5C3A00BBD25E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A442F7A1ACE5C3A00BBD25E /* Credits.rtf */; };
+		4A442F7F1ACE5C3A00BBD25E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A442F7E1ACE5C3A00BBD25E /* AppDelegate.m */; };
+		4A442F821ACE5C3B00BBD25E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A442F801ACE5C3B00BBD25E /* MainMenu.xib */; };
+		4A442F841ACE5C3B00BBD25E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A442F831ACE5C3B00BBD25E /* Images.xcassets */; };
+		4A442F8B1ACE5C3B00BBD25E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A442F8A1ACE5C3B00BBD25E /* XCTest.framework */; };
+		4A442F8C1ACE5C3B00BBD25E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A442F6B1ACE5C3A00BBD25E /* Cocoa.framework */; };
+		4A442F941ACE5C3B00BBD25E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A442F921ACE5C3B00BBD25E /* InfoPlist.strings */; };
+		4A442F961ACE5C3B00BBD25E /* NotifSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A442F951ACE5C3B00BBD25E /* NotifSwitchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A442F8D1ACE5C3B00BBD25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A442F601ACE5C3A00BBD25E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A442F671ACE5C3A00BBD25E;
+			remoteInfo = NotifSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A442F681ACE5C3A00BBD25E /* NotifSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotifSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A442F6B1ACE5C3A00BBD25E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A442F6E1ACE5C3A00BBD25E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4A442F6F1ACE5C3A00BBD25E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A442F701ACE5C3A00BBD25E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A442F731ACE5C3A00BBD25E /* NotifSwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotifSwitch-Info.plist"; sourceTree = "<group>"; };
+		4A442F751ACE5C3A00BBD25E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A442F771ACE5C3A00BBD25E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A442F791ACE5C3A00BBD25E /* NotifSwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotifSwitch-Prefix.pch"; sourceTree = "<group>"; };
+		4A442F7B1ACE5C3A00BBD25E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4A442F7D1ACE5C3A00BBD25E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A442F7E1ACE5C3A00BBD25E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A442F811ACE5C3B00BBD25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A442F831ACE5C3B00BBD25E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A442F891ACE5C3B00BBD25E /* NotifSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotifSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A442F8A1ACE5C3B00BBD25E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4A442F911ACE5C3B00BBD25E /* NotifSwitchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotifSwitchTests-Info.plist"; sourceTree = "<group>"; };
+		4A442F931ACE5C3B00BBD25E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A442F951ACE5C3B00BBD25E /* NotifSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotifSwitchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A442F651ACE5C3A00BBD25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A442F6C1ACE5C3A00BBD25E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A442F861ACE5C3B00BBD25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A442F8C1ACE5C3B00BBD25E /* Cocoa.framework in Frameworks */,
+				4A442F8B1ACE5C3B00BBD25E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A442F5F1ACE5C3A00BBD25E = {
+			isa = PBXGroup;
+			children = (
+				4A442F711ACE5C3A00BBD25E /* NotifSwitch */,
+				4A442F8F1ACE5C3B00BBD25E /* NotifSwitchTests */,
+				4A442F6A1ACE5C3A00BBD25E /* Frameworks */,
+				4A442F691ACE5C3A00BBD25E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A442F691ACE5C3A00BBD25E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A442F681ACE5C3A00BBD25E /* NotifSwitch.app */,
+				4A442F891ACE5C3B00BBD25E /* NotifSwitchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A442F6A1ACE5C3A00BBD25E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A442F6B1ACE5C3A00BBD25E /* Cocoa.framework */,
+				4A442F8A1ACE5C3B00BBD25E /* XCTest.framework */,
+				4A442F6D1ACE5C3A00BBD25E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A442F6D1ACE5C3A00BBD25E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A442F6E1ACE5C3A00BBD25E /* AppKit.framework */,
+				4A442F6F1ACE5C3A00BBD25E /* CoreData.framework */,
+				4A442F701ACE5C3A00BBD25E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4A442F711ACE5C3A00BBD25E /* NotifSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				4A442F7D1ACE5C3A00BBD25E /* AppDelegate.h */,
+				4A442F7E1ACE5C3A00BBD25E /* AppDelegate.m */,
+				4A442F801ACE5C3B00BBD25E /* MainMenu.xib */,
+				4A442F831ACE5C3B00BBD25E /* Images.xcassets */,
+				4A442F721ACE5C3A00BBD25E /* Supporting Files */,
+			);
+			path = NotifSwitch;
+			sourceTree = "<group>";
+		};
+		4A442F721ACE5C3A00BBD25E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A442F731ACE5C3A00BBD25E /* NotifSwitch-Info.plist */,
+				4A442F741ACE5C3A00BBD25E /* InfoPlist.strings */,
+				4A442F771ACE5C3A00BBD25E /* main.m */,
+				4A442F791ACE5C3A00BBD25E /* NotifSwitch-Prefix.pch */,
+				4A442F7A1ACE5C3A00BBD25E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A442F8F1ACE5C3B00BBD25E /* NotifSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A442F951ACE5C3B00BBD25E /* NotifSwitchTests.m */,
+				4A442F901ACE5C3B00BBD25E /* Supporting Files */,
+			);
+			path = NotifSwitchTests;
+			sourceTree = "<group>";
+		};
+		4A442F901ACE5C3B00BBD25E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A442F911ACE5C3B00BBD25E /* NotifSwitchTests-Info.plist */,
+				4A442F921ACE5C3B00BBD25E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A442F671ACE5C3A00BBD25E /* NotifSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A442F991ACE5C3B00BBD25E /* Build configuration list for PBXNativeTarget "NotifSwitch" */;
+			buildPhases = (
+				4A442F641ACE5C3A00BBD25E /* Sources */,
+				4A442F651ACE5C3A00BBD25E /* Frameworks */,
+				4A442F661ACE5C3A00BBD25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotifSwitch;
+			productName = NotifSwitch;
+			productReference = 4A442F681ACE5C3A00BBD25E /* NotifSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A442F881ACE5C3B00BBD25E /* NotifSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A442F9C1ACE5C3B00BBD25E /* Build configuration list for PBXNativeTarget "NotifSwitchTests" */;
+			buildPhases = (
+				4A442F851ACE5C3B00BBD25E /* Sources */,
+				4A442F861ACE5C3B00BBD25E /* Frameworks */,
+				4A442F871ACE5C3B00BBD25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A442F8E1ACE5C3B00BBD25E /* PBXTargetDependency */,
+			);
+			name = NotifSwitchTests;
+			productName = NotifSwitchTests;
+			productReference = 4A442F891ACE5C3B00BBD25E /* NotifSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A442F601ACE5C3A00BBD25E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					4A442F881ACE5C3B00BBD25E = {
+						TestTargetID = 4A442F671ACE5C3A00BBD25E;
+					};
+				};
+			};
+			buildConfigurationList = 4A442F631ACE5C3A00BBD25E /* Build configuration list for PBXProject "NotifSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A442F5F1ACE5C3A00BBD25E;
+			productRefGroup = 4A442F691ACE5C3A00BBD25E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A442F671ACE5C3A00BBD25E /* NotifSwitch */,
+				4A442F881ACE5C3B00BBD25E /* NotifSwitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A442F661ACE5C3A00BBD25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A442F761ACE5C3A00BBD25E /* InfoPlist.strings in Resources */,
+				4A442F841ACE5C3B00BBD25E /* Images.xcassets in Resources */,
+				4A442F7C1ACE5C3A00BBD25E /* Credits.rtf in Resources */,
+				4A442F821ACE5C3B00BBD25E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A442F871ACE5C3B00BBD25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A442F941ACE5C3B00BBD25E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A442F641ACE5C3A00BBD25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A442F7F1ACE5C3A00BBD25E /* AppDelegate.m in Sources */,
+				4A442F781ACE5C3A00BBD25E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A442F851ACE5C3B00BBD25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A442F961ACE5C3B00BBD25E /* NotifSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A442F8E1ACE5C3B00BBD25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A442F671ACE5C3A00BBD25E /* NotifSwitch */;
+			targetProxy = 4A442F8D1ACE5C3B00BBD25E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A442F741ACE5C3A00BBD25E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A442F751ACE5C3A00BBD25E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A442F7A1ACE5C3A00BBD25E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A442F7B1ACE5C3A00BBD25E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4A442F801ACE5C3B00BBD25E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A442F811ACE5C3B00BBD25E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4A442F921ACE5C3B00BBD25E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A442F931ACE5C3B00BBD25E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A442F971ACE5C3B00BBD25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A442F981ACE5C3B00BBD25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A442F9A1ACE5C3B00BBD25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotifSwitch/NotifSwitch-Prefix.pch";
+				INFOPLIST_FILE = "NotifSwitch/NotifSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A442F9B1ACE5C3B00BBD25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotifSwitch/NotifSwitch-Prefix.pch";
+				INFOPLIST_FILE = "NotifSwitch/NotifSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A442F9D1ACE5C3B00BBD25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NotifSwitch.app/Contents/MacOS/NotifSwitch";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotifSwitch/NotifSwitch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NotifSwitchTests/NotifSwitchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4A442F9E1ACE5C3B00BBD25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NotifSwitch.app/Contents/MacOS/NotifSwitch";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotifSwitch/NotifSwitch-Prefix.pch";
+				INFOPLIST_FILE = "NotifSwitchTests/NotifSwitchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A442F631ACE5C3A00BBD25E /* Build configuration list for PBXProject "NotifSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A442F971ACE5C3B00BBD25E /* Debug */,
+				4A442F981ACE5C3B00BBD25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A442F991ACE5C3B00BBD25E /* Build configuration list for PBXNativeTarget "NotifSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A442F9A1ACE5C3B00BBD25E /* Debug */,
+				4A442F9B1ACE5C3B00BBD25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A442F9C1ACE5C3B00BBD25E /* Build configuration list for PBXNativeTarget "NotifSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A442F9D1ACE5C3B00BBD25E /* Debug */,
+				4A442F9E1ACE5C3B00BBD25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A442F601ACE5C3A00BBD25E /* Project object */;
+}
