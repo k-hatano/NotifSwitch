@@ -8,8 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSUserNotificationCenterDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) BOOL isThreadRunning;
+@property (retain) NSArray *lastRunningApplications;
+@property (retain) NSMutableDictionary *notifiedApplications;
 
 @end
